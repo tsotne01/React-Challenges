@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import ZustandCounter from './Pages/Easy: Simple Global Counter/ZustandCounter'
 import FormValidation from './Pages/Easy: Display Data from API/FormValidation'
 import DataMutation from './Pages/Easy: Simple Data Mutation (Without Re-fetch)/DataMutation'
+import ConditionalFetching from './Pages/Easy: Conditional Fetching Based on State/ConditionalFetching'
 
 
 const router = createBrowserRouter([
@@ -27,11 +28,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/easy4/",
-    element: <DataMutation />
+    element: <ConditionalFetching />
   }
 ])
 
-const queryClient = new QueryClient();
+export const queryClient = new QueryClient();
 
 const App = () => {
   return (
