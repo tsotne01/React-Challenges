@@ -7,6 +7,7 @@ import ZustandCounter from './Pages/Easy: Simple Global Counter/ZustandCounter'
 import FormValidation from './Pages/Easy: Display Data from API/FormValidation'
 import DataMutation from './Pages/Easy: Simple Data Mutation (Without Re-fetch)/DataMutation'
 import ConditionalFetching from './Pages/Easy: Conditional Fetching Based on State/ConditionalFetching'
+import FormWithMutation from './Pages/Medium: Create Item Form with Mutation & Invalidation/FormWithMutation'
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/easy5/",
     element: <DataMutation />
+  },
+  {
+    path: "/easy6/",
+    element: <FormWithMutation />
   }
 ])
 
