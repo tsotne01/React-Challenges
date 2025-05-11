@@ -5,7 +5,10 @@ const Home = () => {
   return (
     <div>
         <h1>Hello</h1>
-        <NavLink to="/task1">Task 1</NavLink>
+        <NavLink to="/easy1">Task 1</NavLink>
+        <NavLink to="/easy2">Task 2</NavLink>
+        <NavLink to="/easy3">Task 3</NavLink>
+
     </div>
   )
 }
