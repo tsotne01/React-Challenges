@@ -29,7 +29,8 @@ const router = createBrowserRouter([
   {
     path: "/easy4/",
     element: <ConditionalFetching />
-  }, {
+  }, 
+  {
     path: "/easy5/",
     element: <DataMutation />
   }

@@ -16,7 +16,7 @@ const DataMutation = () => {
     <div>
       <h1>Todos</h1>
       {data && data.map((todo) => {
-        return (<Todo todo={todo} />)
+        return (<Todo key={todo.id} todo={todo} />)
       })}
     </div>
   )
