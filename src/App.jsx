@@ -3,8 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Home'
 import ChallengeOne from './Pages/Easy: Basic Form with Validation (Console Output)/ChallengeOne'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import ZustandCounter from './Pages/Easy: Conditional Fetching Based on State/ZustandCounter'
+import ZustandCounter from './Pages/Easy: Simple Global Counter/ZustandCounter'
 import FormValidation from './Pages/Easy: Display Data from API/FormValidation'
+import DataMutation from './Pages/Easy: Simple Data Mutation (Without Re-fetch)/DataMutation'
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/easy3/",
     element: <FormValidation />
+  },
+  {
+    path: "/easy4/",
+    element: <DataMutation />
   }
 ])
 
