@@ -1,4 +1,4 @@
----
+
 
 **Easy Challenges (5)**
 
@@ -19,7 +19,6 @@ These focus on fundamental usage of the tools in straightforward scenarios.
 5.  **Easy: Simple Data Mutation (Without Re-fetch)**
     * Display a static item. Add a button (e.g., "Mark as Done"). Use TanStack Query's `useMutation` and Axios to send a basic request (e.g., a PUT with a status update) to an API endpoint. Don't worry about re-fetching the data yet.
 
----
 
 **Medium Challenges (10)**
 
